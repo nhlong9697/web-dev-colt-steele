@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Museum of candy</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="app.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
 </head>
 
 <body>
@@ -53,6 +55,59 @@
     </div>
 
   </section>
+  <section class="container-fluid px-0">
+    <div class="row align-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="imgs/milk.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 sub-section mb-5 mb-md-0">
+            <h2>MUSEUM OF CANDY</h2>
+            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repudiandae fuga itaque sunt
+              distinctio possimus aut alias maxime odit ex minus, exercitationem veniam porro saepe voluptates nostrum
+              ratione fugiat, iste ipsa iusto. Necessitatibus ratione mollitia adipisci quam ab dicta fugit sed libero
+              rerum soluta voluptatibus, aut quas, nihil iure voluptas blanditiis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-2">
+          <img src="imgs/gumball.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-1">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 sub-section mb-5 mb-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repudiandae fuga itaque sunt
+                distinctio possimus aut alias maxime odit ex minus, exercitationem veniam porro saepe voluptates nostrum
+                ratione fugiat, iste ipsa iusto. Necessitatibus ratione mollitia adipisci quam ab dicta fugit sed libero
+                rerum soluta voluptatibus, aut quas, nihil iure voluptas blanditiis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center content">
+          <div class="col-md-6 order-2 order-md-1">
+            <img src="imgs/sprinkles.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 sub-section mb-5 mb-md-0">
+                <h2>MUSEUM OF CANDY</h2>
+                <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repudiandae fuga itaque sunt
+                  distinctio possimus aut alias maxime odit ex minus, exercitationem veniam porro saepe voluptates nostrum
+                  ratione fugiat, iste ipsa iusto. Necessitatibus ratione mollitia adipisci quam ab dicta fugit sed libero
+                  rerum soluta voluptatibus, aut quas, nihil iure voluptas blanditiis.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -64,6 +119,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
 </body>
 
 </html>
