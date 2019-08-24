@@ -1,4 +1,4 @@
-var numSquares = 6;
+var numSquares = 9;
 var colors = [];
 var squares = document.querySelectorAll(".square");
 var pickedColor;
@@ -53,7 +53,15 @@ function setupModeButton() {
       //add selected class for selected buttons
       this.classList.add("selected");
       //select easy or hard mode
-      this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
+      if (this.textContent === "Easy") {
+        numSquares = 3;
+      }
+      else if (this.textContent === "Medium") {
+        numSquares = 6;
+      }
+      else {
+        numSquares = 9;
+      }
       reset();
     });
   }
