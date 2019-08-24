@@ -50,6 +50,7 @@ function setupModeButton() {
       //clear selected class from all buttons
       modeButtons[0].classList.remove("selected");
       modeButtons[1].classList.remove("selected");
+      modeButtons[2].classList.remove("selected");
       //add selected class for selected buttons
       this.classList.add("selected");
       //select easy or hard mode
