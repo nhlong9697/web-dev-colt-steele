@@ -1,0 +1,35 @@
+{
+  "name": "web-dev-colt-steele",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "cat-me": "^1.0.3",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mongoose": "^5.7.0",
+    "nodemon": "^1.19.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "locus": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhlong9697/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhlong9697/nodejs/issues"
+  },
+  "homepage": "https://github.com/nhlong9697/nodejs#readme",
+  "description": "nodejs"
+}

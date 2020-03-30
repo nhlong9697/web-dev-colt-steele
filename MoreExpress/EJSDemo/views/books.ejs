@@ -1,0 +1,8 @@
+<% include partials/header %>
+<% booksVar.forEach(function(books) { %>
+	<p> <%= books.title %> : <strong><%= books.author %></strong></p>
+<% }); %>
+<% for (var i = 0; i < booksVar.length; i++) { %>
+	<p><%= booksVar[i].title%> : <strong><%= booksVar[i].author %></strong></p>
+<% } %>
+<% include partials/footer %>

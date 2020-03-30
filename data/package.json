@@ -1,0 +1,14 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

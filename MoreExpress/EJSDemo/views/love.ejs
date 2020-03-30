@@ -1,0 +1,13 @@
+<% include partials/header %>
+<h1>
+	you fell in love with <%= thingVar %>
+</h1>
+<p>
+	P.S. this is the love.ejs files
+</p>
+<% if (thingVar.toLowerCase() === "long") { %>
+	<p>you made a good choice</p>
+<% } else { %>
+	<p>you made a wrong choice</p>
+<% } %> 
+<% include partials/footer %>
